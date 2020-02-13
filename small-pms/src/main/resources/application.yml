@@ -7,9 +7,9 @@ spring:
         server-addr: 127.0.0.1:8848
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/gmall_pms
+    url: jdbc:mysql://35.200.22.61:3306/gmall_pms
     username: root
-    password: 123456
+    password: xxx123456
   redis:
     host: 127.0.0.1
     password: 123456

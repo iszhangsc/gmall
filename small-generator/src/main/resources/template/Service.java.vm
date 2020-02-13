@@ -2,7 +2,7 @@ package ${package}.${moduleName}.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import ${package}.${moduleName}.entity.${className}Entity;
-import PageVO;
+import com.small.core.vo.PageVO;
 import com.small.core.bean.QueryCondition;
 
 
@@ -17,6 +17,6 @@ import com.small.core.bean.QueryCondition;
  */
 public interface ${className}Service extends IService<${className}Entity> {
 
-    PageVo<${className}> queryPage(QueryCondition params);
+    PageVO<${className}Entity> queryPage(QueryCondition params);
 }
 
