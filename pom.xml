@@ -4,22 +4,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>gmall-auth</module>
-        <module>gmall-admin</module>
-        <module>gmall-cart</module>
-        <module>gmall-core</module>
-        <module>gamll-gateway</module>
-        <module>gmall-generator</module>
-        <module>gmall-index</module>
-        <module>gmall-item</module>
-        <module>gmall-oms</module>
-        <module>gmall-order</module>
-        <module>gmall-pay</module>
-        <module>gmall-pms</module>
-        <module>gamll-search</module>
-        <module>gmall-sms</module>
-        <module>gmall-ums</module>
-        <module>gmall-wms</module>
+        <module>small-auth</module>
+        <module>small-admin</module>
+        <module>small-cart</module>
+        <module>small-core</module>
+        <module>small-gateway</module>
+        <module>small-generator</module>
+        <module>small-index</module>
+        <module>small-item</module>
+        <module>small-oms</module>
+        <module>small-order</module>
+        <module>small-pay</module>
+        <module>small-pms</module>
+        <module>small-search</module>
+        <module>small-sms</module>
+        <module>small-ums</module>
+        <module>small-wms</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -28,8 +28,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.gmall</groupId>
-    <artifactId>gmall</artifactId>
+    <groupId>com.small</groupId>
+    <artifactId>small-mall</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>商城</description>
