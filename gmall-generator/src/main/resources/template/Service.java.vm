@@ -1,0 +1,22 @@
+package ${package}.${moduleName}.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import ${package}.${moduleName}.entity.${className}Entity;
+import com.gmall.core.vo.PageVO;
+import com.atguigu.core.bean.QueryCondition;
+
+
+/**
+ * <p>
+ *   ${comments}
+ * </p>
+ *
+ * @author ${author}
+ * @email ${email}
+ * @date ${datetime}
+ */
+public interface ${className}Service extends IService<${className}Entity> {
+
+    PageVo<${className}> queryPage(QueryCondition params);
+}
+
