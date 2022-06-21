@@ -40,7 +40,7 @@
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
         <nacos.version>0.2.2.RELEASE</nacos.version>
         <mybatisplus.version>3.2.0</mybatisplus.version>
-        <mysql.version>5.1.46</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <swagger.version>2.9.2</swagger.version>
         <swagger-models.version>1.5.21</swagger-models.version>
         <swagger-ui.version>1.9.6</swagger-ui.version>
